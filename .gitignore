@@ -1,0 +1,12 @@
+# Terraform 임시 파일 및 플러그인
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# 변수 파일 (비밀번호 등이 포함될 수 있음)
+*.tfvars
+*.tfvars.json
+
+# 기타 시스템 파일
+.DS_Store
